@@ -1,0 +1,154 @@
+body {
+    
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(245, 212, 212);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+.contact-title
+{
+margin-top: 100px;
+color:rgb(22, 20, 20);
+text-transform: uppercase;
+transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+}
+.form-control
+{
+    width:600px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid rgb(17 16 16);
+    color:black;
+    font-size: 18px ;
+    margin-bottom: 16px;
+}
+input .submit
+{
+    height: 45px;
+}
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 10px;
+
+}
+form .submit:hover
+{
+    background: #f44336;
+    cursor: pointer;
+}
+
+.form {
+    border: 5px solid rgb(0, 0, 0) ;
+    margin: 0px auto;
+    padding-bottom: 30px;
+    width: 300px;
+    padding: 25px 25px;
+   
+}
+h1.login-title {
+    color: rgb(0, 0, 0);
+    margin: 0px auto 25px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid rgb(52, 32, 160);
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#fffcfc;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #0eb31c;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align:center;
+    cursor: pointer;
+}
+.link {
+    color: rgb(100, 46, 228);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+    color:rgb(44, 20, 151);
+}
+
+
+
+    img {
+       
+        
+        border: left width 10px;
+        height:80px;
+        padding-left:50px;
+        width:fit-content;
+        
+      }
+     
+      
+     
+.link a {
+    color: rgb(101, 38, 218);
+}
+
+h3 {
+    font-weight: normal;
+    text-align: center;
+    
+}
